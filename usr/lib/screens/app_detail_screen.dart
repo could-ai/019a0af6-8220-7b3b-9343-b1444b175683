@@ -50,7 +50,7 @@ class AppDetailScreen extends StatelessWidget {
                         ],
                       ),
                       Text(
-                        app.price == 0.0 ? 'Free' : '$${app.price}',
+                        app.price == 0.0 ? 'Free' : '\$${app.price}',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: app.price == 0.0 ? Colors.green : Colors.blue,
